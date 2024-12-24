@@ -1,18 +1,7 @@
 <template>
   <div id="app">
-    <!-- Навигация, если нужно -->
-    <header>
-      <h1>File Manager App</h1>
-      <nav>
-        <router-link to="/">Home</router-link>
-        <router-link to="/file-manager">File Manager</router-link>
-      </nav>
-    </header>
-
     <!-- Основной контент -->
-    <main>
       <router-view /> <!-- Здесь будет отображаться контент для каждого маршрута -->
-    </main>
   </div>
 </template>
 
